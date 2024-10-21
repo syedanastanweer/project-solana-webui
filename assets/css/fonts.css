@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Sans Culottes';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Sans Culottes'), url('../fonts/SansCulottes.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), url('../fonts/Raleway-Regular.ttf') format('truetype');
+}
+
+/* * {
+    font-family: 'Sans Culottes';
+} */
