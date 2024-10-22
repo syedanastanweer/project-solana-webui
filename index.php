@@ -113,14 +113,14 @@
                 <a class="header__logo mb-30" href="#!">
                     <img src="assets/img/logo/logo.png" alt="">
                 </a>
-                <div class="header-mobile-search">
+                <!-- <div class="header-mobile-search">
                     <form role="search" method="get" action="#">
                         <input type="text" placeholder="Search Keywords">
                         <button type="submit"><i class="ti-search"></i></button>
                     </form>
-                </div>
+                </div> -->
                 <ul id="mobile-menu-active">
-                    <li class="dropdown"><a href="index.html"><span>Home</span></a>
+                    <!-- <li class="dropdown"><a href="index.html"><span>Home</span></a>
                         <ul class="sub-menu">
                             <li class="active"><a href="index.html"><span>Home Blockchain</span></a></li>
                             <li><a href="home-2.html"><span>Home Mining</span></a></li>
@@ -136,8 +136,8 @@
                             <li><a href="blog.html"><span>Blog</span></a></li>
                             <li><a href="blog-single.html"><span>Blog Details</span></a></li>
                         </ul>
-                    </li>
-                    <li><a href="contact.html"><span>Contact</span></a></li>
+                    </li> -->
+                    <li><a href="#0"><span>Home</span></a></li>
                 </ul>
 
             </nav>
@@ -402,7 +402,7 @@
                 </div>
             </section>
 
-            <section class="secnewfive sectop50-bottom-100">
+            <section class="secnewfive section-top-bottom">
                 <div class="container inner">
                     <div class="row">
                         <div class="first">
@@ -418,7 +418,7 @@
                                     preferred Dex.</p>
                                 <div class="btm-img">
                                     <img class="img2" src="assets/img/new/secfivestep1.png" />
-                                    <img class="img3" src="assets/img/new/secfivepic1.png" />
+                                    <img class="img3 one" src="assets/img/new/secfivepic1.png" />
                                 </div>
                             </div>
                         </div>
@@ -430,7 +430,7 @@
                                     $Buji</p>
                                 <div class="btm-img">
                                     <img class="img2" src="assets/img/new/secfivestep2.png" />
-                                    <img class="img3" src="assets/img/new/secfivepic2.png" />
+                                    <img class="img3 two" src="assets/img/new/secfivepic2.png" />
                                 </div>
                             </div>
                         </div>
@@ -441,7 +441,7 @@
                                 <p>Rugged Ebook and reduce the $Buji supply</p>
                                 <div class="btm-img">
                                     <img class="img2" src="assets/img/new/secfivestep3.png" />
-                                    <img class="img3" src="assets/img/new/secfivepic3.png" />
+                                    <img class="img3 three" src="assets/img/new/secfivepic3.png" />
                                 </div>
 
                             </div>
@@ -477,7 +477,7 @@
                 </div>
             </section>
 
-            <section class="secnewseven secbottom100">
+            <section class="secnewseven section-top-bottom">
                 <div class="container inner">
                     <div class="row">
                         <div class="col-md-8">
@@ -513,31 +513,293 @@
                         <div class="col-md-6">
                             <div class="third">
                                 <ul>
-                                    <li>LP is 100% Burned.</li>
-                                    <li>Freeze and Mint is Inactive.</li>
-                                    <li>Insiders and Developers control less than 15% of the supply.</li>
-                                    <li>All insider and developer wallets are identified and pinned on the TG or X
-                                        account.
-                                    </li>
-                                    <li>Developer and Insider tokens are locked up for the first 30 days or once market
-                                        cap
-                                        reaches $10M.</li>
-                                    <li>Developers and Insiders can sell a maximum of 10% of tokens in a 24 hour period.
-                                    </li>
+                                    <li>Meme must be original.</li>
+                                    <li>Website domain is owned by Contract Creator.</li>
+                                    <li>Socials are owned by the Contract Creator.</li>
+                                    <li>No KOL rounds (Allocation), presales or airdrops.</li>
+                                    <li>No volume or market making bots paid for by the contract creator.</li>
+                                    <li>No Buy|Sell Tax.</li>
                                 </ul>
                             </div>
                         </div>
-
                     </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="fourth">
+                                <a class="cstm-btn btntwo elem" href="#!">Learn About Meme Token Alliance</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="secneweight secbottom100">
+                <div class="container">
+                    <div class="row first">
+                        <div class="col-md-12">
+                            <div class="heading">
+                                <h2>Claim your Buji <span>Bonuses</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row second">
+                        <div class="col-md-12">
+                            <div class="image">
+                                <img src="assets/img/new/secnewthree-2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row third">
+                        <div class="col-md-4">
+                            <div class="box">
+                                <div class="one e1">
+                                    <h2>Bonus #1</h2>
+                                </div>
+                                <div class="two">
+                                    <h3>MemeBook</h3>
+                                </div>
+                                <div class="three">
+                                    <p>Purchase $15 in $Buji and download the Rugged MemeBook for Free!</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box">
+                                <div class="one e2">
+                                    <h2>Bonus #2</h2>
+                                </div>
+                                <div class="two">
+                                    <h3>MemeScore</h3>
+                                </div>
+                                <div class="three">
+                                    <p>Purchase $50 in $Buji and gain access to our meme trading course.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box">
+                                <div class="one e3">
+                                    <h2>Bonus #3</h2>
+                                </div>
+                                <div class="two">
+                                    <h3>MemeScore</h3>
+                                </div>
+                                <div class="three">
+                                    <p> Purchase $150 in $Buji and
+                                        gain access to the MemeScore<br>
+                                        (Coming Q1 2025)</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="secnewnine secbottom100">
+                <div class="container inner">
+                    <div class="row">
+                        <div class="first">
+                            <h2>Spread the Word <span>Grow the Community</span> Shilling Made Buji</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="second">
+                            <img src="assets/img/new/secnewthree-2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="third">
+                            <h3>Post one of the following posts per day for the next 5 days. Simply click the copy
+                                button and past on your favorite social media account</h3>
+                        </div>
+                    </div>
+                    <div class="row fourth">
+                        <div class="col-md-2">
+                            <div class="left">
+                                <!-- <img src="assets/img/new/secnewnine-left.png" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="right">
+                                <h4>Unlock the Secrets of Meme Investing!</h4>
+                                <p> 🚀"Just what the doctor ordered for the meme industry! Rugged will prevent millions
+                                    from being scammed by crooked developers." Dive deep into the world of meme tokens
+                                    with </p>
+                                <p>#Rugged Don't miss out on becoming a savvy investor. Contract Address (CA):
+                                    [Placeholder] </p>
+                                <p>#memetoken #cryptocurrency #doge #shibu</p>
+                                <div class="socialicons">
+                                    <a><img src="assets/img/new/facebook.png" alt=""></a>
+                                    <a><img src="assets/img/new/instagram.png" alt=""></a>
+                                    <a><img src="assets/img/new/twitter.png" alt=""></a>
+                                    <a><img src="assets/img/new/tiktok.png" alt=""></a>
+                                    <a><img src="assets/img/new/whatsapp.png" alt=""></a>
+                                    <a><img src="assets/img/new/telegram.png" alt=""></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row fourth">
+                        <div class="col-md-2">
+                            <div class="left">
+                                <!-- <img src="assets/img/new/secnewnine-left.png" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="right">
+                                <h4>Are You New to Meme Tokens?</h4>
+                                <p>"If you are new to meme investing and haven't read Rugged…you will get rugged." Make
+                                    sure to educate yourself with the essential guide to meme investing. Learn to spot
+                                    the scams before they spot you! </p>
+                                <p>Contract Address (CA): [Placeholder] #pepe #dogwifhat #cryptoeducation</p>
+                                <div class="socialicons">
+                                    <a><img src="assets/img/new/facebook.png" alt=""></a>
+                                    <a><img src="assets/img/new/instagram.png" alt=""></a>
+                                    <a><img src="assets/img/new/twitter.png" alt=""></a>
+                                    <a><img src="assets/img/new/tiktok.png" alt=""></a>
+                                    <a><img src="assets/img/new/whatsapp.png" alt=""></a>
+                                    <a><img src="assets/img/new/telegram.png" alt=""></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row fourth">
+                        <div class="col-md-2">
+                            <div class="left">
+                                <!-- <img src="assets/img/new/secnewnine-left.png" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="right">
+                                <h4>Grow Your Wealth with Knowledge from Rugged!</h4>
+                                <p>"Get educated and get wealthy - Rugged makes it that simple." The wisdom from top
+                                    Meme influencers packed into one revolutionary book. Don’t miss the chance to
+                                    elevate your meme game!</p>
+                                <p>Contract Address (CA): [Placeholder] #memetoken #cryptocurrency #pepe</p>
+                                <div class="socialicons">
+                                    <a><img src="assets/img/new/facebook.png" alt=""></a>
+                                    <a><img src="assets/img/new/instagram.png" alt=""></a>
+                                    <a><img src="assets/img/new/twitter.png" alt=""></a>
+                                    <a><img src="assets/img/new/tiktok.png" alt=""></a>
+                                    <a><img src="assets/img/new/whatsapp.png" alt=""></a>
+                                    <a><img src="assets/img/new/telegram.png" alt=""></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row fourth">
+                        <div class="col-md-2">
+                            <div class="left">
+                                <!-- <img src="assets/img/new/secnewnine-left.png" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="right">
+                                <h4>Join the Meme Publishing Revolution!</h4>
+                                <p>"Rugged is leading the Meme Publishing Revolution - LFG. Innovative, Insightful, and
+                                    Incredible - Why has this not been done before?" Discover why The Dalitomma's latest
+                                    release is a game-changer for the crypto world. </p>
+                                <p>Contract Address (CA): [Placeholder] #dogwifhat #doge #shibu</p>
+                                <div class="socialicons">
+                                    <a><img src="assets/img/new/facebook.png" alt=""></a>
+                                    <a><img src="assets/img/new/instagram.png" alt=""></a>
+                                    <a><img src="assets/img/new/twitter.png" alt=""></a>
+                                    <a><img src="assets/img/new/tiktok.png" alt=""></a>
+                                    <a><img src="assets/img/new/whatsapp.png" alt=""></a>
+                                    <a><img src="assets/img/new/telegram.png" alt=""></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row fourth">
+                        <div class="col-md-2">
+                            <div class="left">
+                                <!-- <img src="assets/img/new/secnewnine-left.png" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="right">
+                                <h4>The Blueprint for Meme Mastery is Here!</h4>
+                                <p>"Rugged is the new blueprint for stacking your Solana - Kudos Dalitomma. Genius, just
+                                    fucking genius - I am telling everyone to send Rugged to the Moon!" Grab your copy
+                                    today and start your journey toward meme mastery. </p>
+                                <p>Contract Address (CA): [Placeholder] #dogwifhat #doge #shibu</p>
+                                <div class="socialicons">
+                                    <a><img src="assets/img/new/facebook.png" alt=""></a>
+                                    <a><img src="assets/img/new/instagram.png" alt=""></a>
+                                    <a><img src="assets/img/new/twitter.png" alt=""></a>
+                                    <a><img src="assets/img/new/tiktok.png" alt=""></a>
+                                    <a><img src="assets/img/new/whatsapp.png" alt=""></a>
+                                    <a><img src="assets/img/new/telegram.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row fiveth">
+                        <div class="col-md-12">
+                            <div class="clickbtn">
+                                <a class="cstm-btn btntwo" href="#!">Want More? Click Here!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row sixth">
+                        <div class="col-md-12">
+                            <div class="image">
+                                <img src="assets/img/new/secnewnine-footer.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="secnewten">
+                <div class="image">
+                    <img src="assets/img/new/footer-kitty.png" alt="">
                 </div>
             </section>
         </main>
 
         <!-- footer start -->
-        <footer class="site-footer footer__blockchain pos-rel pt-95 bg_img"
-            data-background="assets/img/bg/footer_bg2.jpg">
+        <footer class="site-footer footer__blockchain pos-rel">
             <div class="container">
-                <div class="footer__newsletter ul_li_between mt-none-30">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="first">
+                            <img src="assets/img/logo/logo.png" alt="">
+                            <h2>Copyright © 2024 Dalitomma, Inc.. All Rights Reserved</h2>
+                            <h3>Privacy Policy | Legal</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="second">
+                            <a class="cstm-btn btntwo ftr" href="#!">Contact for Speaking Engagements and Memebook
+                                Launches</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="third">
+                            <div class="header-top-icons">
+                                <a href="#!"><img src="assets/img/new/h-icon1.png"></a>
+                                <a href="#!"><img src="assets/img/new/h-icon2.png"></a>
+                                <a href="#!"><img src="assets/img/new/h-icon3.png"></a>
+                                <a href="#!"><img src="assets/img/new/h-icon4.png"></a>
+                                <a href="#!"><img src="assets/img/new/h-icon5.png"></a>
+                            </div>
+                        </div>
+                        <div class="third-btm">
+                            <h4><img src="assets/img/new/barcode.png" /> ISBN: 949-8-218-48890-1</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="footer__newsletter ul_li_between mt-none-30">
                     <div class="sec-title style2 mt-30">
                         <h2 class="sec-title__title text-50">Get regular updates</h2>
                     </div>
@@ -547,64 +809,7 @@
                             <button class="blc-btn">subscribe</button>
                         </form>
                     </div>
-                </div>
-                <div class="row mt-none-30 pb-70">
-                    <div class="col-lg-4 col-md-6 col-sm-6 mt-30">
-                        <div class="footer__widget">
-                            <div class="footer__widget-community text-center">
-                                <h3>Join Our Blockchain <br> Community</h3>
-                                <a href="#!"><img src="assets/img/icon/discord.svg" alt="">join</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 mt-30">
-                        <div class="footer__widget">
-                            <h3>Quick Links</h3>
-                            <ul class="footer__widget-links list-unstyled">
-                                <li><a href="#!">Whitepaper</a></li>
-                                <li><a href="#!">One pager</a></li>
-                                <li><a href="#!">Presentation</a></li>
-                                <li><a href="#!">Contact</a></li>
-                                <li><a href="#!">Token Sale</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 mt-30">
-                        <div class="footer__widget">
-                            <h3>Others Links</h3>
-                            <ul class="footer__widget-links list-unstyled">
-                                <li><a href="#!">About</a></li>
-                                <li><a href="#!">API Docs</a></li>
-                                <li><a href="#!">News</a></li>
-                                <li><a href="#!">Team</a></li>
-                                <li><a href="#!">FAQ</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6 mt-30">
-                        <div class="footer__widget">
-                            <h3>legal</h3>
-                            <ul class="footer__widget-links list-unstyled">
-                                <li><a href="#!">Privacy Policy</a></li>
-                                <li><a href="#!">Terms & Conditions</a></li>
-                                <li><a href="#!">Disclaimer</a></li>
-                                <li><a href="#!">Sitemap</a></li>
-                                <li><a href="#!">Terms & Use</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer__copyright-blc ul_li_between">
-                    <div class="footer__copyright-text mt-15">
-                        Copyright © 2023 Coindox. All rights reserved.
-                    </div>
-                    <ul class="footer__social ul_li mt-15">
-                        <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="#!"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#!"><i class="fab fa-telegram-plane"></i></a></li>
-                    </ul>
-                </div>
+                </div> -->
             </div>
         </footer>
         <!-- footer end -->
