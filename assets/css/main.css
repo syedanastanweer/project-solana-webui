@@ -10817,7 +10817,7 @@ blockquote span {
   transition: 0.3s;
   display: inline-block;
   position: relative;
-  z-index: 1;
+  /* z-index: 1; */
   border-radius: 30px;
 }
 
@@ -11685,6 +11685,516 @@ blockquote span {
   height: 14rem;
 }
 
+.sectionhome .pos-rel img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  right: -30px;
+}
+
+.sectionhome-product .pos-rel img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  left: -10px;
+}
+
+
+
+.sectionhome-product .top-one {
+  margin: 20px;
+  width: 30rem;
+}
+
+.sectionhome-product .top-one label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: 'Raleway';
+  color: #ffffff;
+}
+
+.sectionhome-product .top-one .select-box {
+  font-family: 'Raleway';
+  font-size: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.sectionhome-product .top-one .selected {
+  font-family: 'Raleway';
+  font-size: 12px;
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sectionhome-product .top-one .selected:hover {
+  font-family: 'Raleway';
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sectionhome-product .top-one .selected img.icon {
+  width: 20px;
+  margin-left: 18px;
+}
+
+.sectionhome-product .top-one .arrow {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+  transform: rotate(45deg);
+}
+
+.sectionhome-product .top-one .options {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  background-color: #081018;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.sectionhome-product .top-one .options li {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sectionhome-product .top-one .options li:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sectionhome-product .top-one .options img.icon {
+  width: 20px;
+  margin-right: 10px;
+}
+
+/* Show options on hover */
+.sectionhome-product .top-one .select-box:hover .options {
+  display: block;
+}
+
+.top-one .select-box span {
+  font-family: 'Raleway';
+  font-size: 12px;
+}
+
+.sectionhome-product .one {
+  padding-left: 8rem;
+  padding-bottom: 40px;
+}
+
+.sectionhome-product .btns {
+  margin: auto;
+  padding-left: 16px;
+}
+
+.sectionhome-product .btns .cstm-btn {
+  padding: 15px 10rem;
+}
+
+.secnewtwotop .heading h2 {
+  text-transform: uppercase;
+  font-size: 76px;
+  text-align: center;
+}
+
+.secnewtwotop .heading span {
+  color: #FBDF23;
+}
+
+.secnewtwotwo .inner::before {
+  content: "";
+  background: url('../img/new/sectwotwo-el1.png') center center / auto no-repeat;
+  background-size: 100%;
+  position: absolute;
+  bottom: 100%;
+  right: 0%;
+  width: 10%;
+  height: 100%;
+}
+
+.secnewtwotwo .inner {
+  position: relative;
+  background: #07AB25;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid #FCE023;
+}
+
+.secnewtwotwo .inner .one h2 {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.secnewthreethree .inner {
+  background: #000000;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: inset 0px 14rem 10rem -50px rgba(4, 51, 17, 0.8), 0px 6rem 40rem rgba(252, 224, 35, 0.8);
+}
+
+.secnewthreethree .inner .first .one h2 {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.secnewthreethree .inner .first .one span {
+  color: #FBDF23;
+}
+
+.secnewthreethree .inner .first {
+  padding-top: 40px;
+}
+
+.secnewthreethree .inner .second .heading {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.secnewthreethree .inner .second .heading h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 60px;
+}
+
+.secnewthreethree .inner .second .heading span {
+  color: #0BA927;
+}
+
+.secnewthreethree .inner .third .heading {
+  position: relative;
+  background-color: #F9DE32;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 10rem;
+}
+
+.secnewthreethree .inner .third .heading h2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+
+.secnewfourfour {
+  position: relative;
+}
+
+.secnewfourfour h2 {
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+  padding: 30px 0px;
+  border-radius: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* background-color: #ffffff; */
+  border-radius: 50px;
+  /* padding-left: 15px; */
+  width: 100%;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 50px 0 0 50px;
+  width: 100%;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #000000;
+  height: 70px;
+}
+
+.search-container button {
+  background-color: #36b84d;
+  border: none;
+  border-radius: 0 50px 50px 0;
+  padding: 26px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container button i {
+  color: #fff;
+  font-size: 18px;
+}
+
+.secnewfivefive .inner-two {
+  padding: 40px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.secnewfivefive .inner-two::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../img/new/secnewfive.png);
+  background-position: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+  border-radius: 20px;
+}
+
+.secnewfivefive .inner-two::after {
+  content: "";
+  background: url(../img/new/secnewfive-after.png) center center / auto no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: -100%;
+  right: 2%;
+  width: 10%;
+  height: 140%;
+  z-index: -2;
+}
+
+
+.secnewfivefive .inner-two .heading h2 {
+  font-size: 50px;
+  text-align: center;
+  color: #182028;
+  text-transform: uppercase;
+}
+
+.secnewfivefive .inner-one .heading h2 {
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+
+.secnewfivefive .inner-one .heading span {
+  color: #0BAA28;
+}
+
+.secnewfivefive .inner-three .heading {
+  padding-top: 80px;
+}
+
+.secnewfivefive .inner-three .heading hr {
+  background-color: #ffffff;
+  height: 2px;
+}
+
+.secnewninenine .inner {
+  padding: 40px 0px 0px 0px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.secnewninenine .inner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../img/new/secnine-inner.png);
+  background-position: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+  border-radius: 20px;
+}
+
+.secnewninenine .first {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.secnewninenine .first h2 {
+  font-family: 'Sans Culottes';
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 60px;
+  line-height: 80px;
+}
+
+.secnewninenine .first span {
+  color: #0BAA28;
+}
+
+
+.secnewninenine .second {
+  background-color: #0D1925;
+  margin: auto 50px;
+  padding: 40px 10px;
+  border-radius: 20px;
+}
+
+.secnewninenine .second .btns {
+  text-align: center;
+  margin: 20px 0px 0px;
+}
+
+.secnewninenine .second .inr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #626a7229;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
+}
+
+.secnewninenine .fiveth .one {
+  padding: 100px 0 40px;
+}
+
+.secnewninenine .fiveth .one h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+}
+
+.secnewninenine .fiveth .one span {
+  color: #FBDF23;
+}
+
+.secnewninenine .fiveth .two h2 {
+  text-transform: uppercase;
+  background-color: #069420;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 40px;
+  text-align: center;
+  font-size: 50px;
+  border: 1px solid #FBDF23;
+}
+
+
+.secnewthreethree .inner .third .heading::before {
+  content: "";
+  background: url(../img/new/secsevenelem.png) center center / auto no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: -17rem;
+  left: 0rem;
+  width: 14%;
+  height: 22rem;
+}
+
+.secnewfourfour .left {
+  background-color: #10171E;
+  border-radius: 20px;
+  border-top: 4px solid #FCE022;
+}
+
+.table-container {
+  /* padding-top: 80px; */
+  width: 100%;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* background-color: #2c2f48; */
+}
+
+thead {
+  background-color: #2b2e43;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+tbody tr {
+  border-bottom: 1px solid #44475a;
+}
+
+tbody tr:hover {
+  background-color: #44475a;
+}
+
+.exchange-logo {
+  width: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+td {
+  font-size: 14px;
+}
+
+td:nth-child(5),
+td:nth-child(6) {
+  text-align: right;
+}
+
+.secnewfourfour .left .heading h2 {
+  font-family: 'Raleway';
+  text-align: left;
+  font-size: 26px;
+  text-transform: uppercase;
+  padding: 30px 20px 30px;
+  border-radius: 20px;
+  font-weight: 800;
+}
+
+/* td:last-child {
+  border-collapse: inherit;
+} */
 @media (min-width: 1366px) and (max-width: 1600px) {
   .hero .col-md-5.offset-md-2 {
     margin-left: 8.333333%;
@@ -11732,6 +12242,36 @@ blockquote span {
     width: 120px;
   }
 
+  .secnewfive .btm-img .img3 {
+    position: relative;
+    top: 28px;
+  }
+
+  .secnewfour .card {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #2D3640;
+    color: #fff;
+    border-radius: 10px;
+    height: 22vh;
+  }
+
+  .swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 54vh !important;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+  }
+
+  .secnewthree .inner .fourth .box {
+    background-color: #069420;
+    border-bottom: 6px solid #FBDF23;
+    border-radius: 20px;
+    height: 22vh;
+  }
 
   /* .secnewtwo .inner::before {
     content: "";
@@ -11745,7 +12285,7 @@ blockquote span {
   } */
 }
 
-@media (min-width: 370px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 500px) {
   .header-top-icons {
     display: none;
   }

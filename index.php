@@ -150,7 +150,7 @@
 
         <main>
             <!-- hero start -->
-            <section class="hero hero__blockchain pos-rel bg_img">
+            <section class="sectionhome hero hero__blockchain pos-rel bg_img">
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-md-5 offset-md-2">
