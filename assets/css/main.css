@@ -460,7 +460,7 @@ span {
 .ul_li_center,
 .ul_li_between {
   margin: 0px;
-  padding: 0px 10px;
+  padding: 0px 0px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -12666,7 +12666,7 @@ td:nth-child(6) {
     font-family: 'Sans Culottes';
     font-weight: 400;
     color: #07AB25;
-    font-size: 30px;
+    font-size: 22px;
     padding-bottom: 20px;
   }
 
@@ -12674,7 +12674,7 @@ td:nth-child(6) {
     font-family: 'Sans Culottes';
     font-weight: 400;
     color: #FCE023;
-    font-size: 80px;
+    font-size: 60px;
     padding-bottom: 20px;
   }
 
@@ -12690,24 +12690,14 @@ td:nth-child(6) {
     font-family: 'Raleway';
     font-weight: 800;
     color: #FCE023;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 14px;
+    line-height: 24px;
   }
 
   .cstm-btn {
-    font-size: 10px;
-    font-weight: 700;
-    color: #ffffff;
-    padding: 10px 30px;
-    text-transform: uppercase;
-    letter-spacing: 1.4px;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    border-radius: 30px;
+    width: 100%;
+    font-size: 8px;
+    padding: 14px 30px;
   }
 
   .secnewtwo .inner::before {
@@ -12815,11 +12805,11 @@ td:nth-child(6) {
   .secnewthree .inner .third h2 {
     text-align: center;
     font-family: 'Sans Culottes';
-    font-size: 50px;
+    font-size: 40px;
     color: #ffffff;
     padding-bottom: 20px;
     padding-left: 20px;
-    line-height: 60px;
+    line-height: 50px;
     text-transform: uppercase;
     padding: 30px 0;
   }
@@ -12837,18 +12827,18 @@ td:nth-child(6) {
   }
 
   .secnewfour {
-    margin: 30px;
+    margin: 20px;
   }
 
   .secnewfour h2 {
     margin-bottom: 60px;
     text-align: center;
-    font-size: 28px;
+    font-size: 20px;
     text-transform: uppercase;
     background-color: #1F2730;
     padding: 30px;
     border-radius: 20px;
-    line-height: 40px;
+    line-height: normal;
   }
 
   .swiper-wrapper {
@@ -12872,9 +12862,9 @@ td:nth-child(6) {
   }
 
   .secnewfive .first h2 {
-    font-size: 30px;
+    font-size: 24px;
     text-align: center;
-    line-height: 40px;
+    line-height: normal;
     color: #182028;
     text-transform: uppercase;
   }
@@ -12885,24 +12875,42 @@ td:nth-child(6) {
 
   .secnewsix .right h2 {
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 10px;
   }
 
   .right-two p {
     font-family: 'Raleway';
-    font-size: 16px;
+    font-size: 12px;
     color: #ffffff;
     padding-left: 44px;
   }
 
   .right-two h3 {
     font-family: 'Raleway';
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 800;
     color: #FBDF23;
     padding-top: 20px;
     padding-bottom: 10px;
+  }
+
+  .secnewseven .third ul {
+    list-style: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+  }
+
+  .secnewseven .third li {
+    list-style-image: url(../img/new/tick.png);
+    margin-left: 30px;
+    font-size: 16px;
+    padding: 6px 0;
+  }
+
+  .open-popup {
+    margin: auto;
   }
 
   .secnewseven .inner::before {
@@ -12958,7 +12966,7 @@ td:nth-child(6) {
     font-family: 'Sans Culottes';
     text-transform: uppercase;
     text-align: center;
-    font-size: 44px;
+    font-size: 26px;
   }
 
   .secneweight .third .box {
@@ -12966,12 +12974,12 @@ td:nth-child(6) {
     border-top: 4px solid #FCE023;
     border-radius: 20px;
     padding-bottom: 40px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
-    height: 30vh;
+    height: auto;
     position: relative;
-    margin: 70px 0;
+    margin: 60px 0;
   }
 
   .secneweight .third {
@@ -12986,8 +12994,8 @@ td:nth-child(6) {
     font-family: 'Sans Culottes';
     text-transform: uppercase;
     text-align: center;
-    font-size: 28px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: normal;
   }
 
   .secnewnine .third h3 {
@@ -12999,12 +13007,20 @@ td:nth-child(6) {
   }
 
   .secnewnine .fourth .right {
-    padding: 30px;
+    padding: 22px 0;
     text-align: center;
+  }
+
+  .socialicons img {
+    height: 30px;
   }
 
   .secnewten {
     display: none;
+  }
+
+  .popup-container .modal-body p {
+    font-size: 18px;
   }
 
   .secnewnine .sixth .image img {
@@ -13015,9 +13031,14 @@ td:nth-child(6) {
 
   .site-footer .second .cstm-btn.ftr {
     text-align: center;
-    font-size: 12px;
+    font-size: 8px;
     border-radius: 40px;
     margin-top: 40px;
+    line-height: 20px;
+  }
+
+  .sectionhome-product .one img {
+    width: 70%;
   }
 
   .site-footer .first {
@@ -13025,20 +13046,30 @@ td:nth-child(6) {
   }
 
   .secnewfive .btm-img .img3.one {
+    height: 74%;
     position: relative;
-    top: 70px;
+    top: 100px;
     right: 22px;
   }
 
+  .secnewfive .second .card h2 {
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 800;
+  }
+
   .secnewfive .btm-img .img3.two {
+    height: 80%;
     position: relative;
-    top: 24px;
+    top: 80px;
+    right: 18px;
   }
 
   .secnewfive .btm-img .img3.three {
+    height: 80%;
     position: relative;
-    top: 40px;
-    left: 30px;
+    top: 50px;
+    left: 4px;
   }
 
   .site-footer .third-btm {
@@ -13073,14 +13104,14 @@ td:nth-child(6) {
   .secnewtwotop .heading h2 {
     padding-top: 10px;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
   }
 
   .secnewtwotwo .inner .one h2 {
     text-align: center;
-    padding-bottom: 10px;
-    font-size: 20px;
+    padding-bottom: 0px;
+    font-size: 15px;
     text-transform: uppercase;
   }
 
@@ -13115,7 +13146,8 @@ td:nth-child(6) {
   .secnewthreethree .inner .second .heading h2 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
+    line-height: 26px;
   }
 
   .secnewthreethree .inner .third .heading {
@@ -13139,10 +13171,47 @@ td:nth-child(6) {
 
   .secnewfourfour h2 {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     text-transform: uppercase;
-    padding: 30px 0px;
+    padding: 0px 0px;
     border-radius: 20px;
+  }
+
+  .price-section-container {
+    background-color: #10171E;
+    border-radius: 20px;
+    border-top: 4px solid #FCE022;
+    padding: 20px;
+  }
+
+  .secnewfourfour .price-value {
+    font-family: 'Sans Culottes';
+    font-size: 26px;
+    color: #f4f4f4;
+    margin-right: 10px;
+  }
+
+  .price-section-container .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+  }
+
+  .btns {
+    margin: auto;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .hero-cs-two .two p {
+    font-family: 'Raleway';
+    font-weight: 800;
+    color: #FCE023;
+    font-size: 12px;
+    line-height: 30px;
   }
 
   .secnewthreethree .inner .third .heading h2 {
@@ -13174,10 +13243,11 @@ td:nth-child(6) {
     position: relative;
     width: 100%;
     height: 100%;
+    margin: 0;
   }
 
   .secnewfivefive .inner-one .heading h2 {
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
@@ -13206,16 +13276,27 @@ td:nth-child(6) {
 
   .secnewninenine .second {
     background-color: #0D1925;
-    margin: auto 20px;
+    margin: auto 10px;
     padding: 40px 10px;
     border-radius: 20px;
   }
 
+  .secnewninenine .second .inr {
+    margin-left: 0px;
+  }
+
+  .btns a {
+    margin: 0px auto 20px;
+  }
 
   .secnewninenine .fiveth .one h2 {
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 24px;
     text-align: center;
+  }
+
+  .secnewninenine .fiveth .one {
+    padding: 40px 0 0px;
   }
 
   .secnewninenine .fiveth .two h2 {
@@ -13229,8 +13310,48 @@ td:nth-child(6) {
     border: 1px solid #FBDF23;
   }
 
+  .secnewfour .card {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #2D3640;
+    color: #fff;
+    border-radius: 10px;
+    height: 22vh;
+  }
+
+  .secnewfour .card p {
+    display: flex;
+    padding-top: 14px;
+    font-style: italic;
+    font-size: 14px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .secnewfive .inner {
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .secnewfive .second .card {
+    position: relative;
+    margin-top: 60px;
+    border-radius: 20px;
+    padding: 20px;
+    height: 54vh;
+  }
+
   .sm-pt-60 {
     padding-top: 60px;
+  }
+
+  .sm-pt-20 {
+    padding-top: 20px;
   }
 
   .sm-pb-20 {

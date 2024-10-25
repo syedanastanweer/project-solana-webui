@@ -57,7 +57,7 @@
             </div>
         </div>
     </section>
-    <section class="secnewthree sectop50-bottom-100">
+    <section class="secnewthree sectop50-bottom-100 sm-pt-20 sm-pb-20">
         <div class="container">
             <div class="inner">
                 <div class="row first">

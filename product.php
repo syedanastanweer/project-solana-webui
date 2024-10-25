@@ -90,7 +90,7 @@
                 </div>
             </div>
         </section>
-        <section class="secnewthreethree sectop50-bottom-100">
+        <section class="secnewthreethree sectop50-bottom-100 sm-pt-20 sm-pb-20">
             <div class="container">
                 <div class="inner">
                     <div class="row first">
@@ -320,7 +320,7 @@
             </div>
         </section>
 
-        <section class="secnewfivefive section-top-bottom ">
+        <section class="secnewfivefive section-top-bottom sm-pt-20 sm-pb-20">
             <div class="container">
                 <div class="row inner-one">
                     <div class="heading">
