@@ -64,3 +64,24 @@
     });
 
 </script>
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            includedLanguages: 'en,de,es,it,zh-CN,id',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+    }
+</script>
+
+<script type="text/javascript">
+    function toggleGoogleTranslate() {
+        var translateElement = document.getElementById("google_translate_element");
+        if (translateElement.style.display === "none") {
+            translateElement.style.display = "block";
+        } else {
+            translateElement.style.display = "none";
+        }
+    }
+</script>

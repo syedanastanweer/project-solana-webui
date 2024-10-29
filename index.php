@@ -13,7 +13,7 @@
                         <div class="hero-cs-two">
                             <div class="one">
                                 <p>Downloaded XXXX Times</p>
-                                <p>$XXXX of $rugged Tokens Burned</p>
+                                <p>$XXXX of $Buji Tokens Burned</p>
                             </div>
                             <div class="two">
                                 <h2>Available in Six Languages:</h2>
@@ -189,7 +189,7 @@
                                         <p>"Rugged is the key to growing the Meme economy - teach everyone you
                                             know
                                             how
-                                            to buy $rugged"</p>
+                                            to buy $Buji"</p>
                                         <p class="stars">★★★★★</p>
                                     </div>
                                     <div class="card">
@@ -234,7 +234,7 @@
                                         <p>"Rugged is the key to growing the Meme economy - teach everyone you
                                             know
                                             how
-                                            to buy $rugged"</p>
+                                            to buy $Buji"</p>
                                         <p class="stars">★★★★★</p>
                                     </div>
                                     <div class="card">

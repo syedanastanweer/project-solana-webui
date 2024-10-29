@@ -3914,7 +3914,7 @@ h6 {
   font-size: 14px;
   font-weight: 400;
   color: var(--color-white);
-  padding: 40px 18px;
+  padding: 40px 2px;
   position: relative;
   line-height: 22px;
   text-transform: capitalize;
@@ -12554,9 +12554,36 @@ td:nth-child(6) {
   border-radius: 20px;
 }
 
+
+/* Hide Google Translate bar */
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+/* Hide Google Translate pop-up widget */
+.goog-te-menu-frame {
+  display: none !important;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+  display: none !important;
+}
+
+/* .skiptranslate {
+          display: none !important;
+      } */
+
+/* Optional: adjust dropdown appearance */
+#google_translate_element select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 /* td:last-child {
   border-collapse: inherit;
 } */
+ 
 @media (min-width: 1366px) and (max-width: 1600px) {
   .hero .col-md-5.offset-md-2 {
     margin-left: 8.333333%;

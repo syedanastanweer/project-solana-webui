@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    
 </head>
 
 <body class="home-blockchain">
@@ -74,16 +75,8 @@
                             </nav>
                         </div>
                         <div class="header__action ul_li">
-                            <div class="d-lg-none">
-                                <a class="header__bar hamburger_menu" href="javascript:void(0);">
-                                    <div class="header__bar-icon">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                    </div>
-                                </a>
-                            </div>
+                            <!-- <div class="d-lg-none"> -->
+
                             <div class="blockchain-header__account">
                                 <a class="cstm-btn btnone" href="product"><span>Connect/Download</span></a>
 
@@ -92,8 +85,23 @@
                                 <a href="#!"><img src="assets/img/new/h-icon1.png" /></a>
                                 <a href="#!"><img src="assets/img/new/h-icon2.png" /></a>
                                 <a href="#!"><img src="assets/img/new/h-icon3.png" /></a>
-                                <a href="#!"><img src="assets/img/new/h-icon4.png" /></a>
+                                <a href="#!" class="language-converter" onclick="toggleGoogleTranslate()">
+                                    <img src="assets/img/new/h-icon4.png" />
+                                </a>
                                 <a href="#!"><img src="assets/img/new/h-icon5.png" /></a>
+                            </div>
+
+                            <!-- Google Translate Dropdown -->
+                            <div id="google_translate_element" style="display: none;"></div>
+                            <div class="">
+                                <a class="header__bar hamburger_menu" href="javascript:void(0);">
+                                    <div class="header__bar-icon">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
